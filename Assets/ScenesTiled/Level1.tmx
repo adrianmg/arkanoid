@@ -1,21 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="24" tileheight="16" backgroundcolor="#f7f5e9" nextobjectid="10">
- <tileset firstgid="1" name="sprite" tilewidth="24" tileheight="16" tilecount="3" columns="3">
-  <image source="../Sprites/sprite.png" trans="ff00ff" width="72" height="16"/>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="24" tileheight="16" nextobjectid="269">
+ <tileset firstgid="1" name="sprite" tilewidth="24" tileheight="16" tilecount="21" columns="3">
+  <image source="../Sprites/sprite.png" trans="ff00ff" width="72" height="112"/>
   <tile id="0">
    <objectgroup draworder="index">
-    <properties>
-     <property name="hits" type="int" value="1"/>
-    </properties>
-    <object id="2" x="6" y="4" width="12" height="8"/>
+    <object id="1" x="0" y="0" width="24" height="16"/>
    </objectgroup>
   </tile>
   <tile id="1">
    <objectgroup draworder="index">
-    <properties>
-     <property name="hits" type="int" value="2"/>
-    </properties>
-    <object id="13" x="0" y="0" width="24" height="16"/>
+    <object id="1" x="0" y="0" width="24" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="24" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="4">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="24" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="6">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="24" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="9">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="24" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="10">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="24" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="12">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="24" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="15">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="24" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="18">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="24" height="16"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="22" name="Player" tilewidth="48" tileheight="11" tilecount="1" columns="1">
+  <image source="../Sprites/sprite-player.png" width="48" height="11"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="48" height="11"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="23" name="sprite-ball" tilewidth="8" tileheight="8" tilecount="1" columns="1">
+  <image source="../Sprites/sprite-ball.png" width="8" height="8"/>
+  <tile id="0">
+   <properties>
+    <property name="unity:tag" value="Ball"/>
+   </properties>
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="8" height="8">
+     <ellipse/>
+    </object>
    </objectgroup>
   </tile>
  </tileset>
@@ -248,233 +303,133 @@
    <tile gid="3"/>
   </data>
  </layer>
- <layer name="Blocks" width="15" height="15">
-  <data>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-  </data>
- </layer>
+ <objectgroup name="BlocksBlue">
+  <object id="192" type="Block" gid="2" x="48" y="32" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="195" type="Block" gid="2" x="72" y="32" width="24" height="16"/>
+  <object id="196" type="Block" gid="2" x="144" y="32" width="24" height="16"/>
+  <object id="197" type="Block" gid="2" x="120" y="32" width="24" height="16"/>
+  <object id="198" type="Block" gid="2" x="96" y="32" width="24" height="16"/>
+  <object id="199" type="Block" gid="2" x="216" y="32" width="24" height="16"/>
+  <object id="200" type="Block" gid="2" x="192" y="32" width="24" height="16"/>
+  <object id="201" type="Block" gid="2" x="168" y="32" width="24" height="16"/>
+  <object id="202" type="Block" gid="2" x="288" y="32" width="24" height="16"/>
+  <object id="203" type="Block" gid="2" x="264" y="32" width="24" height="16"/>
+  <object id="204" type="Block" gid="2" x="240" y="32" width="24" height="16"/>
+ </objectgroup>
+ <objectgroup name="BlocksGreen">
+  <object id="207" type="Block" gid="7" x="48" y="48" width="24" height="16"/>
+  <object id="208" type="Block" gid="7" x="48" y="48" width="24" height="16"/>
+  <object id="209" type="Block" gid="7" x="48" y="48" width="24" height="16"/>
+  <object id="210" type="Block" gid="7" x="72" y="48" width="24" height="16"/>
+  <object id="212" type="Block" gid="7" x="96" y="48" width="24" height="16"/>
+  <object id="213" type="Block" gid="7" x="120" y="48" width="24" height="16"/>
+  <object id="214" type="Block" gid="7" x="216" y="48" width="24" height="16"/>
+  <object id="215" type="Block" gid="7" x="192" y="48" width="24" height="16"/>
+  <object id="216" type="Block" gid="7" x="144" y="48" width="24" height="16"/>
+  <object id="217" type="Block" gid="7" x="144" y="48" width="24" height="16"/>
+  <object id="218" type="Block" gid="7" x="168" y="48" width="24" height="16"/>
+  <object id="219" type="Block" gid="7" x="144" y="48" width="24" height="16"/>
+  <object id="220" type="Block" gid="7" x="288" y="48" width="24" height="16"/>
+  <object id="221" type="Block" gid="7" x="264" y="48" width="24" height="16"/>
+  <object id="222" type="Block" gid="7" x="240" y="48" width="24" height="16"/>
+ </objectgroup>
+ <objectgroup name="BlocksPink">
+  <object id="224" type="Block" gid="10" x="48" y="64" width="24" height="16"/>
+  <object id="225" type="Block" gid="10" x="72" y="64" width="24" height="16"/>
+  <object id="226" type="Block" gid="10" x="120" y="64" width="24" height="16"/>
+  <object id="227" type="Block" gid="10" x="96" y="64" width="24" height="16"/>
+  <object id="228" type="Block" gid="10" x="168" y="64" width="24" height="16"/>
+  <object id="229" type="Block" gid="10" x="192" y="64" width="24" height="16"/>
+  <object id="230" type="Block" gid="10" x="144" y="64" width="24" height="16"/>
+  <object id="231" type="Block" gid="10" x="216" y="64" width="24" height="16"/>
+  <object id="232" type="Block" gid="10" x="288" y="64" width="24" height="16"/>
+  <object id="233" type="Block" gid="10" x="264" y="64" width="24" height="16"/>
+  <object id="234" type="Block" gid="10" x="240" y="64" width="24" height="16"/>
+ </objectgroup>
+ <objectgroup name="BlocksRed">
+  <object id="235" type="Block" gid="5" x="48" y="96" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="236" type="Block" gid="5" x="72" y="96" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="237" type="Block" gid="5" x="96" y="96" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="238" type="Block" gid="5" x="120" y="96" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="239" type="Block" gid="5" x="144" y="96" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="240" type="Block" gid="5" x="168" y="96" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="241" type="Block" gid="5" x="264" y="96" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="242" type="Block" gid="5" x="240" y="96" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="243" type="Block" gid="5" x="288" y="96" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="244" type="Block" gid="5" x="192" y="96" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="245" type="Block" gid="5" x="216" y="96" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="BlocksYellow">
+  <object id="247" type="Block" gid="13" x="48" y="80" width="24" height="16"/>
+  <object id="248" type="Block" gid="13" x="72" y="80" width="24" height="16"/>
+  <object id="249" type="Block" gid="13" x="120" y="80" width="24" height="16"/>
+  <object id="250" type="Block" gid="13" x="96" y="80" width="24" height="16"/>
+  <object id="251" type="Block" gid="13" x="168" y="80" width="24" height="16"/>
+  <object id="252" type="Block" gid="13" x="144" y="80" width="24" height="16"/>
+  <object id="253" type="Block" gid="13" x="288" y="80" width="24" height="16"/>
+  <object id="255" type="Block" gid="13" x="216" y="80" width="24" height="16"/>
+  <object id="256" type="Block" gid="13" x="240" y="80" width="24" height="16"/>
+  <object id="257" type="Block" gid="13" x="264" y="80" width="24" height="16"/>
+  <object id="258" type="Block" gid="13" x="192" y="80" width="24" height="16"/>
+ </objectgroup>
+ <objectgroup name="Paddle" visible="0">
+  <properties>
+   <property name="unity:tag" value="Player"/>
+  </properties>
+  <object id="264" name="Paddle" gid="22" x="156" y="224" width="48" height="11"/>
+ </objectgroup>
+ <objectgroup name="Ball" visible="0">
+  <properties>
+   <property name="unity:tag" value="Ball"/>
+  </properties>
+  <object id="267" gid="23" x="176" y="213" width="8" height="8"/>
+ </objectgroup>
 </map>
