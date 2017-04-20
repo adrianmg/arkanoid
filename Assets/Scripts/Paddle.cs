@@ -4,62 +4,73 @@ using System.Collections;
 public class Paddle : MonoBehaviour
 {
     private float speed = 14.0f;
-    private Rigidbody2D paddleRigidBody;
-    private Vector2 paddleMove;
-    private float boundaryLeft = 1.5f;
-    private float boundaryRight= 21.0f;
+    private Rigidbody2D rigidBody;
+    private Vector2 move;
+
+    private float ppu;
+    private float screenWidthUnits;
+    private float spriteWidthUnits;
+    float boundaryLeft;
+    float boundaryRight;
+
 
     void Start ()
     {
-        paddleRigidBody = gameObject.GetComponent<Rigidbody2D>();
+        rigidBody = gameObject.GetComponent<Rigidbody2D>();
 
-        //Cursor.lockState = CursorLockMode.Locked;
+        ppu = gameObject.GetComponent<SpriteRenderer>().sprite.pixelsPerUnit;
+        screenWidthUnits = Screen.width / ppu;
+
+        spriteWidthUnits = gameObject.GetComponent<SpriteRenderer>().sprite.bounds.size.x;
+
+        // It's half of width because paddle's pivot is in the center
+        boundaryLeft = spriteWidthUnits / 2;
+        boundaryRight = screenWidthUnits - (spriteWidthUnits / 2);
+
         Cursor.lockState = CursorLockMode.Confined;
-
     }
 
     void Update()
     {
-        // Keys movement
-        paddleMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
-        // Mouse 'push' movement
-        //paddleMove = new Vector2(Input.GetAxisRaw("Mouse X"), 0);
-        // Mouse position movement
-        //paddleMove = new Vector2(Input.mousePosition.x, 0);
-
-        //Debug.Log(Input.GetAxisRaw("Mouse X"));
+        CheckKeyboardMovement();
 
         CheckMouseMovement();
     }
 
     private void FixedUpdate()
     {
-        paddleRigidBody.velocity = paddleMove * speed;
+        // @todo: Where do we update the position to prevent glitches and precise collisions? Input is on Update but what about the output? (Mouse wise)
 
-        CheckPaddleLimit();
+        rigidBody.velocity = move * speed;
+
+        //CheckPaddleLimit();
     }
 
     void CheckPaddleLimit()
     {
-        //Debug.Log(paddleRigidBody.position.x);
+        //Debug.Log(rigidBody.position.x);
+    }
+
+    void CheckKeyboardMovement()
+    {
+        move = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
     }
 
     void CheckMouseMovement()
     {
-        float horizontalUnits = Camera.main.orthographicSize * 2;
-        float horizontalUnitsPaddle = Screen.width / 16.0f;
+        // @todo:   Fix when user stops using keys, the paddle automatically jumps to the mouse current position.
+        //          Move mouse aligned with X of the paddle when key pressed?
+        //          Detect previous Mouse position? If it's same do nothing?
+        if (Input.anyKey == false)
+        {
+            float mousePositionInUnits = (Input.mousePosition.x / Screen.width) * screenWidthUnits;
+            mousePositionInUnits = Mathf.Clamp(mousePositionInUnits, boundaryLeft, boundaryRight);
 
-        float mousePositionUnit = (Input.mousePosition.x / Screen.width) * horizontalUnits;
-        mousePositionUnit = Mathf.Clamp(mousePositionUnit, 0, horizontalUnits);
+            rigidBody.position = new Vector2(mousePositionInUnits, rigidBody.position.y);
 
-        Debug.Log("Scenario tile:" + mousePositionUnit);
-        Debug.Log("Paddle tile:" + (Input.mousePosition.x / Screen.width) * horizontalUnitsPaddle);
-
-
-
-        float mouseUnitPosition = Input.mousePosition.x / Screen.width * 24;
-        mouseUnitPosition = Mathf.Clamp(mouseUnitPosition, boundaryLeft, boundaryRight);
-
-        paddleRigidBody.transform.position = new Vector3(mouseUnitPosition, this.transform.position.y, paddleRigidBody.transform.position.z);
+            Debug.Log("Mouse: " + mousePositionInUnits);
+            Debug.Log("Paddle X:" + rigidBody.transform.position.x);
+            Debug.Log("RigidBody X:" + rigidBody.position.x);
+        }
     }
 }
