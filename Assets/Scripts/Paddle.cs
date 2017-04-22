@@ -7,22 +7,27 @@ public class Paddle : MonoBehaviour
     private Rigidbody2D paddleRigidBody;
     private float velocity;
 
-    private float ppu;
     private float screenWidthUnits;
-    private float spriteWidthUnits;
-    float boundaryLeft;
-    float boundaryRight;
+    private float boundaryLeft;
+    private float boundaryRight;
+
+    private float mousePosition;
+    private bool isMouseMoving = false;
 
 
-    void Start ()
+    void Start()
     {
         paddleRigidBody = gameObject.GetComponent<Rigidbody2D>();
 
+        mousePosition = GetMousePosition();
+        Cursor.visible = false;
+
         // Calculate boundaries of the screen for the paddle
-        ppu = gameObject.GetComponent<SpriteRenderer>().sprite.pixelsPerUnit;
+        float ppu = gameObject.GetComponent<SpriteRenderer>().sprite.pixelsPerUnit;
         screenWidthUnits = Screen.width / ppu;
-        spriteWidthUnits = gameObject.GetComponent<SpriteRenderer>().sprite.bounds.size.x;
-        boundaryLeft = spriteWidthUnits / 2; // Divided by 2 because pivot is centered
+
+        float spriteWidthUnits = gameObject.GetComponent<SpriteRenderer>().sprite.bounds.size.x;
+        boundaryLeft = spriteWidthUnits / 2;
         boundaryRight = screenWidthUnits - (spriteWidthUnits / 2);
     }
 
@@ -39,66 +44,59 @@ public class Paddle : MonoBehaviour
 
     void UpdateMovementInput()
     {
-        velocity += Input.GetAxisRaw("Horizontal") * speed;
-        Debug.Log(velocity.ToString("F2"));
+        // Mouse
+        if (IsMouseMoving())
+        {
+            velocity = GetMousePosition();
+            isMouseMoving = true;
+        }
+        // Keyboard
+        else
+        {
+            velocity = Input.GetAxisRaw("Horizontal") * speed;
+            isMouseMoving = false;
+        }
+
+        Debug.Log("Velocity: " + velocity.ToString("F2"));
     }
 
     void MovePaddle()
     {
-        if (velocity != 0)
+        Vector2 newPosition;
+        newPosition.y = paddleRigidBody.position.y;
+
+        // Mouse
+        if (isMouseMoving)
+        {
+            newPosition.x = Mathf.Clamp(velocity, boundaryLeft, boundaryRight);
+        }
+        // Keyboard
+        else
         {
             velocity = velocity * Time.fixedDeltaTime;
-
-            Vector2 newPosition;
-            newPosition.y = paddleRigidBody.position.y;
             newPosition.x = Mathf.Clamp(paddleRigidBody.position.x + velocity, boundaryLeft, boundaryRight);
+        }
 
-            paddleRigidBody.MovePosition(newPosition);
+        paddleRigidBody.MovePosition(newPosition);
+    }
 
-            Debug.Log(newPosition.ToString("F2"));
+    bool IsMouseMoving()
+    {
+        float mousePreviousPosition = mousePosition;
+        mousePosition = GetMousePosition();
+
+        if (mousePosition - mousePreviousPosition == 0)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    //void CheckMouseMovement()
-    //{
-    //    // @todo:   Fix when user stops using keys, the paddle automatically jumps to the mouse current position.
-    //    //          Move mouse aligned with X of the paddle when key pressed?
-    //    //          Detect previous Mouse position? If it's same do nothing?
-    //    if (Input.anyKey == false)
-    //    {
-    //        float mousePositionInUnits = (Input.mousePosition.x / Screen.width) * screenWidthUnits;
-    //        mousePositionInUnits = Mathf.Clamp(mousePositionInUnits, boundaryLeft, boundaryRight);
-
-    //        rigidBody.position = new Vector2(mousePositionInUnits, rigidBody.position.y);
-
-    //        Debug.Log("Mouse: " + mousePositionInUnits);
-    //        Debug.Log("Paddle X:" + rigidBody.transform.position.x);
-    //        Debug.Log("RigidBody X:" + rigidBody.position.x);
-    //    }
-    //}
+    float GetMousePosition()
+    {
+        return (Input.mousePosition.x / Screen.width) * screenWidthUnits;
+    }
 }
