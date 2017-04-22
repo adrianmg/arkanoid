@@ -17,17 +17,12 @@ public class Paddle : MonoBehaviour
     void Start ()
     {
         paddleRigidBody = gameObject.GetComponent<Rigidbody2D>();
-        //movement = paddleRigidBody.transform.position;
 
-        Debug.Log("Initial position: " + paddleRigidBody.position.ToString("F2"));
-
+        // Calculate boundaries of the screen for the paddle
         ppu = gameObject.GetComponent<SpriteRenderer>().sprite.pixelsPerUnit;
         screenWidthUnits = Screen.width / ppu;
-
         spriteWidthUnits = gameObject.GetComponent<SpriteRenderer>().sprite.bounds.size.x;
-
-        // It's half of width because paddle's pivot is in the center
-        boundaryLeft = spriteWidthUnits / 2;
+        boundaryLeft = spriteWidthUnits / 2; // Divided by 2 because pivot is centered
         boundaryRight = screenWidthUnits - (spriteWidthUnits / 2);
     }
 
@@ -40,6 +35,7 @@ public class Paddle : MonoBehaviour
     {
         MovePaddle();
     }
+
 
     void UpdateMovementInput()
     {
