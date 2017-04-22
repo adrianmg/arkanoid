@@ -13,15 +13,18 @@ public class Paddle : MonoBehaviour
     private float mousePosition;
     private bool isMouseMoving = false;
 
-
+    private void Awake()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
 
     void Start()
     {
         paddleRigidBody = gameObject.GetComponent<Rigidbody2D>();
 
-        mousePosition = GetMousePosition();
-        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.lockState = CursorLockMode.None;
         Cursor.visible = false;
+        mousePosition = GetMousePosition();
 
         // Boundaries of the screen
         float screenHorizontalUnits = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x;
