@@ -7,7 +7,6 @@ public class Paddle : MonoBehaviour
     private Rigidbody2D paddleRigidBody;
     private float velocity;
 
-    private float screenWidthUnits;
     private float boundaryLeft;
     private float boundaryRight;
 
@@ -21,15 +20,14 @@ public class Paddle : MonoBehaviour
         paddleRigidBody = gameObject.GetComponent<Rigidbody2D>();
 
         mousePosition = GetMousePosition();
+        Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = false;
 
         // Boundaries of the screen
-        float ppu = gameObject.GetComponent<SpriteRenderer>().sprite.pixelsPerUnit;
-        screenWidthUnits = Screen.width / ppu;
-
-        float spriteWidthUnits = gameObject.GetComponent<SpriteRenderer>().sprite.bounds.size.x;
-        boundaryLeft = spriteWidthUnits / 2;
-        boundaryRight = screenWidthUnits - (spriteWidthUnits / 2);
+        float screenHorizontalUnits = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x;
+        float spriteHorizontalUnits = gameObject.GetComponent<SpriteRenderer>().sprite.bounds.size.x;
+        boundaryLeft = spriteHorizontalUnits / 2;
+        boundaryRight = screenHorizontalUnits - (spriteHorizontalUnits / 2);
     }
 
     void Update()
@@ -93,6 +91,7 @@ public class Paddle : MonoBehaviour
 
     float GetMousePosition()
     {
-        return (Input.mousePosition.x / Screen.width) * screenWidthUnits;
+        return Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
+        //return (Input.mousePosition.x / Screen.width) * screenWidthUnits;
     }
 }
