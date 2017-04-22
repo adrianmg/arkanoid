@@ -92,6 +92,5 @@ public class Paddle : MonoBehaviour
     float GetMousePosition()
     {
         return Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
-        //return (Input.mousePosition.x / Screen.width) * screenWidthUnits;
     }
 }
