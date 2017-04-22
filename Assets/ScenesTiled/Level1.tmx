@@ -426,7 +426,7 @@
   </properties>
   <object id="264" name="Paddle" gid="22" x="156" y="224" width="48" height="11"/>
  </objectgroup>
- <objectgroup name="Ball">
+ <objectgroup name="Ball" visible="0">
   <properties>
    <property name="unity:tag" value="Ball"/>
   </properties>
