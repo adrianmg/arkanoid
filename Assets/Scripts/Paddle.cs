@@ -13,6 +13,8 @@ public class Paddle : MonoBehaviour
     private float mousePosition;
     private bool isMouseMoving = false;
 
+
+
     private void Awake()
     {
         Cursor.lockState = CursorLockMode.Locked;
