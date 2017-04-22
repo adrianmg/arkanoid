@@ -15,6 +15,7 @@ public class Paddle : MonoBehaviour
     private bool isMouseMoving = false;
 
 
+
     void Start()
     {
         paddleRigidBody = gameObject.GetComponent<Rigidbody2D>();
@@ -22,7 +23,7 @@ public class Paddle : MonoBehaviour
         mousePosition = GetMousePosition();
         Cursor.visible = false;
 
-        // Calculate boundaries of the screen for the paddle
+        // Boundaries of the screen
         float ppu = gameObject.GetComponent<SpriteRenderer>().sprite.pixelsPerUnit;
         screenWidthUnits = Screen.width / ppu;
 
@@ -42,22 +43,19 @@ public class Paddle : MonoBehaviour
     }
 
 
+
     void UpdateMovementInput()
     {
-        // Mouse
-        if (IsMouseMoving())
+        if (IsMouseMoving()) // Mouse
         {
             velocity = GetMousePosition();
             isMouseMoving = true;
         }
-        // Keyboard
-        else
+        else // Keyboard
         {
             velocity = Input.GetAxisRaw("Horizontal") * speed;
             isMouseMoving = false;
         }
-
-        Debug.Log("Velocity: " + velocity.ToString("F2"));
     }
 
     void MovePaddle()
@@ -65,13 +63,11 @@ public class Paddle : MonoBehaviour
         Vector2 newPosition;
         newPosition.y = paddleRigidBody.position.y;
 
-        // Mouse
-        if (isMouseMoving)
+        if (isMouseMoving) // Mouse
         {
             newPosition.x = Mathf.Clamp(velocity, boundaryLeft, boundaryRight);
         }
-        // Keyboard
-        else
+        else // Keyboard
         {
             velocity = velocity * Time.fixedDeltaTime;
             newPosition.x = Mathf.Clamp(paddleRigidBody.position.x + velocity, boundaryLeft, boundaryRight);
