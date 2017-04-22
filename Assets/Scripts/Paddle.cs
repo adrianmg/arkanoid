@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Paddle : MonoBehaviour
 {
-    private float speed = 14.0f;
+    private float speed = 16.0f;
     private Rigidbody2D paddleRigidBody;
     private float velocity;
 
@@ -43,7 +43,7 @@ public class Paddle : MonoBehaviour
 
     void UpdateMovementInput()
     {
-        velocity = Input.GetAxisRaw("Horizontal") * speed;
+        velocity += Input.GetAxisRaw("Horizontal") * speed;
         Debug.Log(velocity.ToString("F2"));
     }
 
@@ -51,9 +51,11 @@ public class Paddle : MonoBehaviour
     {
         if (velocity != 0)
         {
+            velocity = velocity * Time.fixedDeltaTime;
+
             Vector2 newPosition;
             newPosition.y = paddleRigidBody.position.y;
-            newPosition.x = Mathf.Clamp(paddleRigidBody.position.x + velocity * Time.deltaTime, boundaryLeft, boundaryRight);
+            newPosition.x = Mathf.Clamp(paddleRigidBody.position.x + velocity, boundaryLeft, boundaryRight);
 
             paddleRigidBody.MovePosition(newPosition);
 
