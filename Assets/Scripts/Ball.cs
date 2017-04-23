@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour {
 
-    private float speed = 12.5f;
+    private float speed = 8.0f;
     private Rigidbody2D ballRigidBody;
     private bool isActive = false;
     private float previousPosition;
@@ -40,14 +40,24 @@ public class Ball : MonoBehaviour {
 
     void LaunchBall()
     {
-        if (paddle.transform.position.x - paddlePreviousPosition >= 0)
+        float direction = paddle.transform.position.x - paddlePreviousPosition;
+        float speedX = speed;
+
+        if(direction < 0)
         {
-            ballRigidBody.velocity = new Vector2(speed / 2 , speed);
+            speedX = -speed;
         }
-        else
+        else if(direction == 0) // Stopped? Aim for closest side
         {
-            ballRigidBody.velocity = new Vector2(-speed / 2, speed);
-        }          
+            float middleOfScreen = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width / 2, 0, 0)).x;
+
+            if (paddle.transform.position.x < middleOfScreen)
+            {
+                speedX = -speed;
+            }
+        }
+
+        ballRigidBody.velocity = new Vector2(speedX, speed * 2);
 
         isActive = true;
     }
