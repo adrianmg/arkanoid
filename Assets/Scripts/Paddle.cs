@@ -4,7 +4,7 @@ using System.Collections;
 public class Paddle : MonoBehaviour
 {
     private float speed = 16.0f;
-    private Rigidbody2D paddleRigidBody;
+    private Rigidbody2D ballRigidBody;
     private float velocity;
 
     private float boundaryLeft;
@@ -20,9 +20,9 @@ public class Paddle : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    void Start()
+    private void Start()
     {
-        paddleRigidBody = gameObject.GetComponent<Rigidbody2D>();
+        ballRigidBody = GetComponent<Rigidbody2D>();
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = false;
@@ -30,7 +30,7 @@ public class Paddle : MonoBehaviour
 
         // Boundaries of the screen
         float screenHorizontalUnits = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x;
-        float spriteHorizontalUnits = gameObject.GetComponent<SpriteRenderer>().sprite.bounds.size.x;
+        float spriteHorizontalUnits = GetComponent<SpriteRenderer>().sprite.bounds.size.x;
         boundaryLeft = spriteHorizontalUnits / 2;
         boundaryRight = screenHorizontalUnits - (spriteHorizontalUnits / 2);
     }
@@ -64,7 +64,7 @@ public class Paddle : MonoBehaviour
     void MovePaddle()
     {
         Vector2 newPosition;
-        newPosition.y = paddleRigidBody.position.y;
+        newPosition.y = ballRigidBody.position.y;
 
         if (isMouseMoving) // Mouse
         {
@@ -73,10 +73,10 @@ public class Paddle : MonoBehaviour
         else // Keyboard
         {
             velocity = velocity * Time.fixedDeltaTime;
-            newPosition.x = Mathf.Clamp(paddleRigidBody.position.x + velocity, boundaryLeft, boundaryRight);
+            newPosition.x = Mathf.Clamp(ballRigidBody.position.x + velocity, boundaryLeft, boundaryRight);
         }
 
-        paddleRigidBody.MovePosition(newPosition);
+        ballRigidBody.MovePosition(newPosition);
     }
 
     bool IsMouseMoving()
