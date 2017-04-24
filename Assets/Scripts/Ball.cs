@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour {
 
-    private float speed = 8.0f;
+    private float speed = 14.0f;
     private Rigidbody2D ballRigidBody;
     private bool isActive = false;
     private float previousPosition;
@@ -38,6 +38,14 @@ public class Ball : MonoBehaviour {
         }
     }
 
+    private void FixedUpdate()
+    {
+        if (isActive)
+        {
+            KeepConstantVelocity();
+        }
+    }
+
     void LaunchBall()
     {
         float direction = paddle.transform.position.x - paddlePreviousPosition;
@@ -57,8 +65,13 @@ public class Ball : MonoBehaviour {
             }
         }
 
-        ballRigidBody.velocity = new Vector2(speedX, speed * 2);
+        ballRigidBody.velocity = new Vector2(speedX, speed);
 
         isActive = true;
+    }
+
+    void KeepConstantVelocity()
+    {
+        ballRigidBody.velocity = ballRigidBody.velocity.normalized * speed;
     }
 }
