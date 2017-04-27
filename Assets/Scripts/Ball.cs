@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Ball : MonoBehaviour {
 
-    private float speed = 14.0f;
+    private float speed = 16.0f;
     private Rigidbody2D ballRigidBody;
     private bool isActive = false;
     private float previousPosition;
@@ -46,7 +47,15 @@ public class Ball : MonoBehaviour {
         }
     }
 
-    void LaunchBall()
+    private void OnCollisionEnter2D(Collision2D e)
+    {
+        if (e.gameObject.tag == "Dead")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
+
+    private void LaunchBall()
     {
         float direction = paddle.transform.position.x - paddlePreviousPosition;
         float speedX = speed;
@@ -70,7 +79,7 @@ public class Ball : MonoBehaviour {
         isActive = true;
     }
 
-    void KeepConstantVelocity()
+    private void KeepConstantVelocity()
     {
         ballRigidBody.velocity = ballRigidBody.velocity.normalized * speed;
     }
