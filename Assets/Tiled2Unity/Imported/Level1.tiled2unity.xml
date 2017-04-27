@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 24/04/2017 07:58:15-->
+<!--Last exported: 27/04/2017 07:07:50-->
 <Tiled2Unity version="1.0.10.3">
   <AssignMaterial mesh="mesh_0001" material="sprite" />
   <AssignMaterial mesh="mesh_tile_0002" material="sprite" />
@@ -16,9 +16,9 @@
     </GameObject>
     <GameObject name="BlocksBlue" x="0" y="0" z="0">
       <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
-      <GameObject name="TileObject" x="3" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <Property name="hits" value="1" />
-        <TileObjectComponent tmx-object-id="192" tmx-object-name="" tmx-object-type="Block" tmx-object-x="48" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockBlue" x="3" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="2" />
+        <TileObjectComponent tmx-object-id="192" tmx-object-name="BlockBlue" tmx-object-type="Block" tmx-object-x="48" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -26,8 +26,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0002" sortingLayerName="" sortingOrder="1" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="4.5" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="195" tmx-object-name="" tmx-object-type="Block" tmx-object-x="72" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockBlue" x="4.5" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="2" />
+        <TileObjectComponent tmx-object-id="195" tmx-object-name="BlockBlue" tmx-object-type="Block" tmx-object-x="72" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -35,8 +36,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0002" sortingLayerName="" sortingOrder="2" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="9" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="196" tmx-object-name="" tmx-object-type="Block" tmx-object-x="144" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockBlue" x="9" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="2" />
+        <TileObjectComponent tmx-object-id="196" tmx-object-name="BlockBlue" tmx-object-type="Block" tmx-object-x="144" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -44,8 +46,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0002" sortingLayerName="" sortingOrder="3" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="7.5" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="197" tmx-object-name="" tmx-object-type="Block" tmx-object-x="120" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockBlue" x="7.5" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="2" />
+        <TileObjectComponent tmx-object-id="197" tmx-object-name="BlockBlue" tmx-object-type="Block" tmx-object-x="120" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -53,8 +56,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0002" sortingLayerName="" sortingOrder="4" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="6" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="198" tmx-object-name="" tmx-object-type="Block" tmx-object-x="96" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockBlue" x="6" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="2" />
+        <TileObjectComponent tmx-object-id="198" tmx-object-name="BlockBlue" tmx-object-type="Block" tmx-object-x="96" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -62,8 +66,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0002" sortingLayerName="" sortingOrder="5" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="13.5" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="199" tmx-object-name="" tmx-object-type="Block" tmx-object-x="216" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockBlue" x="13.5" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="2" />
+        <TileObjectComponent tmx-object-id="199" tmx-object-name="BlockBlue" tmx-object-type="Block" tmx-object-x="216" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -71,8 +76,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0002" sortingLayerName="" sortingOrder="6" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="12" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="200" tmx-object-name="" tmx-object-type="Block" tmx-object-x="192" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockBlue" x="12" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="2" />
+        <TileObjectComponent tmx-object-id="200" tmx-object-name="BlockBlue" tmx-object-type="Block" tmx-object-x="192" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -80,8 +86,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0002" sortingLayerName="" sortingOrder="7" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="10.5" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="201" tmx-object-name="" tmx-object-type="Block" tmx-object-x="168" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockBlue" x="10.5" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="2" />
+        <TileObjectComponent tmx-object-id="201" tmx-object-name="BlockBlue" tmx-object-type="Block" tmx-object-x="168" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -89,8 +96,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0002" sortingLayerName="" sortingOrder="8" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="18" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="202" tmx-object-name="" tmx-object-type="Block" tmx-object-x="288" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockBlue" x="18" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="2" />
+        <TileObjectComponent tmx-object-id="202" tmx-object-name="BlockBlue" tmx-object-type="Block" tmx-object-x="288" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -98,8 +106,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0002" sortingLayerName="" sortingOrder="9" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="16.5" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="203" tmx-object-name="" tmx-object-type="Block" tmx-object-x="264" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockBlue" x="16.5" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="2" />
+        <TileObjectComponent tmx-object-id="203" tmx-object-name="BlockBlue" tmx-object-type="Block" tmx-object-x="264" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -107,8 +116,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0002" sortingLayerName="" sortingOrder="10" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="15" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="204" tmx-object-name="" tmx-object-type="Block" tmx-object-x="240" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockBlue" x="15" y="-2" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="2" />
+        <TileObjectComponent tmx-object-id="204" tmx-object-name="BlockBlue" tmx-object-type="Block" tmx-object-x="240" tmx-object-y="32" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -119,8 +129,9 @@
     </GameObject>
     <GameObject name="BlocksGreen" x="0" y="0" z="0">
       <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
-      <GameObject name="TileObject" x="3" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="207" tmx-object-name="" tmx-object-type="Block" tmx-object-x="48" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockGreen" x="3" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="207" tmx-object-name="BlockGreen" tmx-object-type="Block" tmx-object-x="48" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -128,8 +139,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0007" sortingLayerName="" sortingOrder="12" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="3" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="208" tmx-object-name="" tmx-object-type="Block" tmx-object-x="48" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockGreen" x="3" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="208" tmx-object-name="BlockGreen" tmx-object-type="Block" tmx-object-x="48" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -137,8 +149,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0007" sortingLayerName="" sortingOrder="13" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="3" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="209" tmx-object-name="" tmx-object-type="Block" tmx-object-x="48" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockGreen" x="3" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="209" tmx-object-name="BlockGreen" tmx-object-type="Block" tmx-object-x="48" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -146,8 +159,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0007" sortingLayerName="" sortingOrder="14" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="4.5" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="210" tmx-object-name="" tmx-object-type="Block" tmx-object-x="72" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockGreen" x="4.5" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="210" tmx-object-name="BlockGreen" tmx-object-type="Block" tmx-object-x="72" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -155,8 +169,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0007" sortingLayerName="" sortingOrder="15" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="6" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="212" tmx-object-name="" tmx-object-type="Block" tmx-object-x="96" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockGreen" x="6" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="212" tmx-object-name="BlockGreen" tmx-object-type="Block" tmx-object-x="96" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -164,8 +179,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0007" sortingLayerName="" sortingOrder="16" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="7.5" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="213" tmx-object-name="" tmx-object-type="Block" tmx-object-x="120" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockGreen" x="7.5" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="213" tmx-object-name="BlockGreen" tmx-object-type="Block" tmx-object-x="120" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -173,8 +189,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0007" sortingLayerName="" sortingOrder="17" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="13.5" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="214" tmx-object-name="" tmx-object-type="Block" tmx-object-x="216" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockGreen" x="13.5" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="214" tmx-object-name="BlockGreen" tmx-object-type="Block" tmx-object-x="216" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -182,8 +199,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0007" sortingLayerName="" sortingOrder="18" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="12" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="215" tmx-object-name="" tmx-object-type="Block" tmx-object-x="192" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockGreen" x="12" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="215" tmx-object-name="BlockGreen" tmx-object-type="Block" tmx-object-x="192" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -191,8 +209,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0007" sortingLayerName="" sortingOrder="19" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="9" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="216" tmx-object-name="" tmx-object-type="Block" tmx-object-x="144" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockGreen" x="9" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="216" tmx-object-name="BlockGreen" tmx-object-type="Block" tmx-object-x="144" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -200,8 +219,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0007" sortingLayerName="" sortingOrder="20" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="9" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="217" tmx-object-name="" tmx-object-type="Block" tmx-object-x="144" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockGreen" x="9" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="217" tmx-object-name="BlockGreen" tmx-object-type="Block" tmx-object-x="144" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -209,8 +229,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0007" sortingLayerName="" sortingOrder="21" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="10.5" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="218" tmx-object-name="" tmx-object-type="Block" tmx-object-x="168" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockGreen" x="10.5" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="218" tmx-object-name="BlockGreen" tmx-object-type="Block" tmx-object-x="168" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -218,8 +239,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0007" sortingLayerName="" sortingOrder="22" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="9" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="219" tmx-object-name="" tmx-object-type="Block" tmx-object-x="144" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockGreen" x="9" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="219" tmx-object-name="BlockGreen" tmx-object-type="Block" tmx-object-x="144" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -227,8 +249,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0007" sortingLayerName="" sortingOrder="23" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="18" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="220" tmx-object-name="" tmx-object-type="Block" tmx-object-x="288" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockGreen" x="18" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="220" tmx-object-name="BlockGreen" tmx-object-type="Block" tmx-object-x="288" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -236,8 +259,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0007" sortingLayerName="" sortingOrder="24" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="16.5" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="221" tmx-object-name="" tmx-object-type="Block" tmx-object-x="264" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockGreen" x="16.5" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="221" tmx-object-name="BlockGreen" tmx-object-type="Block" tmx-object-x="264" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -245,8 +269,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0007" sortingLayerName="" sortingOrder="25" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="15" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="222" tmx-object-name="" tmx-object-type="Block" tmx-object-x="240" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockGreen" x="15" y="-3" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="222" tmx-object-name="BlockGreen" tmx-object-type="Block" tmx-object-x="240" tmx-object-y="48" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -257,8 +282,9 @@
     </GameObject>
     <GameObject name="BlocksPink" x="0" y="0" z="0">
       <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
-      <GameObject name="TileObject" x="3" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="224" tmx-object-name="" tmx-object-type="Block" tmx-object-x="48" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockPink" x="3" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="224" tmx-object-name="BlockPink" tmx-object-type="Block" tmx-object-x="48" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -266,8 +292,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0010" sortingLayerName="" sortingOrder="27" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="4.5" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="225" tmx-object-name="" tmx-object-type="Block" tmx-object-x="72" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockPink" x="4.5" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="225" tmx-object-name="BlockPink" tmx-object-type="Block" tmx-object-x="72" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -275,8 +302,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0010" sortingLayerName="" sortingOrder="28" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="7.5" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="226" tmx-object-name="" tmx-object-type="Block" tmx-object-x="120" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockPink" x="7.5" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="226" tmx-object-name="BlockPink" tmx-object-type="Block" tmx-object-x="120" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -284,8 +312,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0010" sortingLayerName="" sortingOrder="29" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="6" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="227" tmx-object-name="" tmx-object-type="Block" tmx-object-x="96" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockPink" x="6" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="227" tmx-object-name="BlockPink" tmx-object-type="Block" tmx-object-x="96" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -293,8 +322,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0010" sortingLayerName="" sortingOrder="30" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="10.5" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="228" tmx-object-name="" tmx-object-type="Block" tmx-object-x="168" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockPink" x="10.5" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="228" tmx-object-name="BlockPink" tmx-object-type="Block" tmx-object-x="168" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -302,8 +332,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0010" sortingLayerName="" sortingOrder="31" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="12" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="229" tmx-object-name="" tmx-object-type="Block" tmx-object-x="192" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockPink" x="12" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="229" tmx-object-name="BlockPink" tmx-object-type="Block" tmx-object-x="192" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -311,8 +342,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0010" sortingLayerName="" sortingOrder="32" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="9" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="230" tmx-object-name="" tmx-object-type="Block" tmx-object-x="144" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockPink" x="9" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="230" tmx-object-name="BlockPink" tmx-object-type="Block" tmx-object-x="144" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -320,8 +352,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0010" sortingLayerName="" sortingOrder="33" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="13.5" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="231" tmx-object-name="" tmx-object-type="Block" tmx-object-x="216" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockPink" x="13.5" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="231" tmx-object-name="BlockPink" tmx-object-type="Block" tmx-object-x="216" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -329,8 +362,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0010" sortingLayerName="" sortingOrder="34" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="18" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="232" tmx-object-name="" tmx-object-type="Block" tmx-object-x="288" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockPink" x="18" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="232" tmx-object-name="BlockPink" tmx-object-type="Block" tmx-object-x="288" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -338,8 +372,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0010" sortingLayerName="" sortingOrder="35" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="16.5" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="233" tmx-object-name="" tmx-object-type="Block" tmx-object-x="264" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockPink" x="16.5" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="233" tmx-object-name="BlockPink" tmx-object-type="Block" tmx-object-x="264" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -347,8 +382,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0010" sortingLayerName="" sortingOrder="36" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="15" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="234" tmx-object-name="" tmx-object-type="Block" tmx-object-x="240" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockPink" x="15" y="-4" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="234" tmx-object-name="BlockPink" tmx-object-type="Block" tmx-object-x="240" tmx-object-y="64" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -357,11 +393,11 @@
         </GameObject>
       </GameObject>
     </GameObject>
-    <GameObject name="BlocksRed" x="0" y="0" z="0">
+    <GameObject name="BlocksRed" x="0" y="0" z="0" tag="Block">
       <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
-      <GameObject name="TileObject" x="3" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <Property name="hits" value="2" />
-        <TileObjectComponent tmx-object-id="235" tmx-object-name="" tmx-object-type="Block" tmx-object-x="48" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockRed" x="3" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="235" tmx-object-name="BlockRed" tmx-object-type="Block" tmx-object-x="48" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -369,9 +405,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0005" sortingLayerName="" sortingOrder="38" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="4.5" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <Property name="hits" value="2" />
-        <TileObjectComponent tmx-object-id="236" tmx-object-name="" tmx-object-type="Block" tmx-object-x="72" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockRed" x="4.5" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="236" tmx-object-name="BlockRed" tmx-object-type="Block" tmx-object-x="72" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -379,9 +415,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0005" sortingLayerName="" sortingOrder="39" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="6" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <Property name="hits" value="2" />
-        <TileObjectComponent tmx-object-id="237" tmx-object-name="" tmx-object-type="Block" tmx-object-x="96" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockRed" x="6" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="237" tmx-object-name="BlockRed" tmx-object-type="Block" tmx-object-x="96" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -389,9 +425,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0005" sortingLayerName="" sortingOrder="40" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="7.5" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <Property name="hits" value="2" />
-        <TileObjectComponent tmx-object-id="238" tmx-object-name="" tmx-object-type="Block" tmx-object-x="120" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockRed" x="7.5" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="238" tmx-object-name="BlockRed" tmx-object-type="Block" tmx-object-x="120" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -399,9 +435,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0005" sortingLayerName="" sortingOrder="41" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="9" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <Property name="hits" value="2" />
-        <TileObjectComponent tmx-object-id="239" tmx-object-name="" tmx-object-type="Block" tmx-object-x="144" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockRed" x="9" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="239" tmx-object-name="BlockRed" tmx-object-type="Block" tmx-object-x="144" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -409,9 +445,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0005" sortingLayerName="" sortingOrder="42" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="10.5" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <Property name="hits" value="2" />
-        <TileObjectComponent tmx-object-id="240" tmx-object-name="" tmx-object-type="Block" tmx-object-x="168" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockRed" x="10.5" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="240" tmx-object-name="BlockRed" tmx-object-type="Block" tmx-object-x="168" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -419,9 +455,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0005" sortingLayerName="" sortingOrder="43" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="16.5" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <Property name="hits" value="2" />
-        <TileObjectComponent tmx-object-id="241" tmx-object-name="" tmx-object-type="Block" tmx-object-x="264" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockRed" x="16.5" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="241" tmx-object-name="BlockRed" tmx-object-type="Block" tmx-object-x="264" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -429,9 +465,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0005" sortingLayerName="" sortingOrder="44" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="15" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <Property name="hits" value="2" />
-        <TileObjectComponent tmx-object-id="242" tmx-object-name="" tmx-object-type="Block" tmx-object-x="240" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockRed" x="15" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="242" tmx-object-name="BlockRed" tmx-object-type="Block" tmx-object-x="240" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -439,9 +475,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0005" sortingLayerName="" sortingOrder="45" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="18" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <Property name="hits" value="2" />
-        <TileObjectComponent tmx-object-id="243" tmx-object-name="" tmx-object-type="Block" tmx-object-x="288" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockRed" x="18" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="243" tmx-object-name="BlockRed" tmx-object-type="Block" tmx-object-x="288" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -449,9 +485,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0005" sortingLayerName="" sortingOrder="46" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="12" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <Property name="hits" value="2" />
-        <TileObjectComponent tmx-object-id="244" tmx-object-name="" tmx-object-type="Block" tmx-object-x="192" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockRed" x="12" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="244" tmx-object-name="BlockRed" tmx-object-type="Block" tmx-object-x="192" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -459,9 +495,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0005" sortingLayerName="" sortingOrder="47" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="13.5" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <Property name="hits" value="2" />
-        <TileObjectComponent tmx-object-id="245" tmx-object-name="" tmx-object-type="Block" tmx-object-x="216" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockRed" x="13.5" y="-6" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="245" tmx-object-name="BlockRed" tmx-object-type="Block" tmx-object-x="216" tmx-object-y="96" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -470,10 +506,11 @@
         </GameObject>
       </GameObject>
     </GameObject>
-    <GameObject name="BlocksYellow" x="0" y="0" z="0">
+    <GameObject name="BlocksYellow" x="0" y="0" z="0" tag="Block">
       <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
-      <GameObject name="TileObject" x="3" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="247" tmx-object-name="" tmx-object-type="Block" tmx-object-x="48" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockYellow" x="3" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="247" tmx-object-name="BlockYellow" tmx-object-type="Block" tmx-object-x="48" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -481,8 +518,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0013" sortingLayerName="" sortingOrder="49" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="4.5" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="248" tmx-object-name="" tmx-object-type="Block" tmx-object-x="72" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockYellow" x="4.5" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="248" tmx-object-name="BlockYellow" tmx-object-type="Block" tmx-object-x="72" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -490,8 +528,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0013" sortingLayerName="" sortingOrder="50" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="7.5" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="249" tmx-object-name="" tmx-object-type="Block" tmx-object-x="120" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockYellow" x="7.5" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="249" tmx-object-name="BlockYellow" tmx-object-type="Block" tmx-object-x="120" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -499,8 +538,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0013" sortingLayerName="" sortingOrder="51" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="6" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="250" tmx-object-name="" tmx-object-type="Block" tmx-object-x="96" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockYellow" x="6" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="250" tmx-object-name="BlockYellow" tmx-object-type="Block" tmx-object-x="96" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -508,8 +548,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0013" sortingLayerName="" sortingOrder="52" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="10.5" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="251" tmx-object-name="" tmx-object-type="Block" tmx-object-x="168" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockYellow" x="10.5" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="251" tmx-object-name="BlockYellow" tmx-object-type="Block" tmx-object-x="168" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -517,8 +558,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0013" sortingLayerName="" sortingOrder="53" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="9" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="252" tmx-object-name="" tmx-object-type="Block" tmx-object-x="144" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockYellow" x="9" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="252" tmx-object-name="BlockYellow" tmx-object-type="Block" tmx-object-x="144" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -526,8 +568,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0013" sortingLayerName="" sortingOrder="54" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="18" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="253" tmx-object-name="" tmx-object-type="Block" tmx-object-x="288" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockYellow" x="18" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="253" tmx-object-name="BlockYellow" tmx-object-type="Block" tmx-object-x="288" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -535,8 +578,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0013" sortingLayerName="" sortingOrder="55" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="13.5" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="255" tmx-object-name="" tmx-object-type="Block" tmx-object-x="216" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockYellow" x="13.5" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="255" tmx-object-name="BlockYellow" tmx-object-type="Block" tmx-object-x="216" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -544,8 +588,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0013" sortingLayerName="" sortingOrder="56" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="15" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="256" tmx-object-name="" tmx-object-type="Block" tmx-object-x="240" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockYellow" x="15" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="256" tmx-object-name="BlockYellow" tmx-object-type="Block" tmx-object-x="240" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -553,8 +598,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0013" sortingLayerName="" sortingOrder="57" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="16.5" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="257" tmx-object-name="" tmx-object-type="Block" tmx-object-x="264" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockYellow" x="16.5" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="257" tmx-object-name="BlockYellow" tmx-object-type="Block" tmx-object-x="264" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
@@ -562,8 +608,9 @@
           <GameObject name="tile_obj" copy="mesh_tile_0013" sortingLayerName="" sortingOrder="58" x="-0.75" y="0.5" />
         </GameObject>
       </GameObject>
-      <GameObject name="TileObject" x="12" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
-        <TileObjectComponent tmx-object-id="258" tmx-object-name="" tmx-object-type="Block" tmx-object-x="192" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
+      <GameObject name="BlockYellow" x="12" y="-5" rotation="0" layer="Block" scaleX="1" scaleY="1">
+        <Property name="hits" value="1" />
+        <TileObjectComponent tmx-object-id="258" tmx-object-name="BlockYellow" tmx-object-type="Block" tmx-object-x="192" tmx-object-y="80" tmx-object-width="24" tmx-object-height="16" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1.5" height="1" />
         <GameObject name="TileObject" x="0.75" y="0.5" scaleX="1" scaleY="1">
           <PolygonCollider2D offsetX="-0.7531738" offsetY="0.5">
             <Path>0,0 1.506348,0 1.506348,-1 0,-1</Path>
