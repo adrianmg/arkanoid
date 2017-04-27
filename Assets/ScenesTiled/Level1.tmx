@@ -304,121 +304,315 @@
   </data>
  </layer>
  <objectgroup name="BlocksBlue">
-  <object id="192" type="Block" gid="2" x="48" y="32" width="24" height="16">
+  <object id="192" name="BlockBlue" type="Block" gid="2" x="48" y="32" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="195" name="BlockBlue" type="Block" gid="2" x="72" y="32" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="196" name="BlockBlue" type="Block" gid="2" x="144" y="32" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="197" name="BlockBlue" type="Block" gid="2" x="120" y="32" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="198" name="BlockBlue" type="Block" gid="2" x="96" y="32" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="199" name="BlockBlue" type="Block" gid="2" x="216" y="32" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="200" name="BlockBlue" type="Block" gid="2" x="192" y="32" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="201" name="BlockBlue" type="Block" gid="2" x="168" y="32" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="202" name="BlockBlue" type="Block" gid="2" x="288" y="32" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="203" name="BlockBlue" type="Block" gid="2" x="264" y="32" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="204" name="BlockBlue" type="Block" gid="2" x="240" y="32" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="BlocksGreen">
+  <object id="207" name="BlockGreen" type="Block" gid="7" x="48" y="48" width="24" height="16">
    <properties>
     <property name="hits" type="int" value="1"/>
    </properties>
   </object>
-  <object id="195" type="Block" gid="2" x="72" y="32" width="24" height="16"/>
-  <object id="196" type="Block" gid="2" x="144" y="32" width="24" height="16"/>
-  <object id="197" type="Block" gid="2" x="120" y="32" width="24" height="16"/>
-  <object id="198" type="Block" gid="2" x="96" y="32" width="24" height="16"/>
-  <object id="199" type="Block" gid="2" x="216" y="32" width="24" height="16"/>
-  <object id="200" type="Block" gid="2" x="192" y="32" width="24" height="16"/>
-  <object id="201" type="Block" gid="2" x="168" y="32" width="24" height="16"/>
-  <object id="202" type="Block" gid="2" x="288" y="32" width="24" height="16"/>
-  <object id="203" type="Block" gid="2" x="264" y="32" width="24" height="16"/>
-  <object id="204" type="Block" gid="2" x="240" y="32" width="24" height="16"/>
- </objectgroup>
- <objectgroup name="BlocksGreen">
-  <object id="207" type="Block" gid="7" x="48" y="48" width="24" height="16"/>
-  <object id="208" type="Block" gid="7" x="48" y="48" width="24" height="16"/>
-  <object id="209" type="Block" gid="7" x="48" y="48" width="24" height="16"/>
-  <object id="210" type="Block" gid="7" x="72" y="48" width="24" height="16"/>
-  <object id="212" type="Block" gid="7" x="96" y="48" width="24" height="16"/>
-  <object id="213" type="Block" gid="7" x="120" y="48" width="24" height="16"/>
-  <object id="214" type="Block" gid="7" x="216" y="48" width="24" height="16"/>
-  <object id="215" type="Block" gid="7" x="192" y="48" width="24" height="16"/>
-  <object id="216" type="Block" gid="7" x="144" y="48" width="24" height="16"/>
-  <object id="217" type="Block" gid="7" x="144" y="48" width="24" height="16"/>
-  <object id="218" type="Block" gid="7" x="168" y="48" width="24" height="16"/>
-  <object id="219" type="Block" gid="7" x="144" y="48" width="24" height="16"/>
-  <object id="220" type="Block" gid="7" x="288" y="48" width="24" height="16"/>
-  <object id="221" type="Block" gid="7" x="264" y="48" width="24" height="16"/>
-  <object id="222" type="Block" gid="7" x="240" y="48" width="24" height="16"/>
+  <object id="208" name="BlockGreen" type="Block" gid="7" x="48" y="48" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="209" name="BlockGreen" type="Block" gid="7" x="48" y="48" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="210" name="BlockGreen" type="Block" gid="7" x="72" y="48" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="212" name="BlockGreen" type="Block" gid="7" x="96" y="48" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="213" name="BlockGreen" type="Block" gid="7" x="120" y="48" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="214" name="BlockGreen" type="Block" gid="7" x="216" y="48" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="215" name="BlockGreen" type="Block" gid="7" x="192" y="48" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="216" name="BlockGreen" type="Block" gid="7" x="144" y="48" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="217" name="BlockGreen" type="Block" gid="7" x="144" y="48" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="218" name="BlockGreen" type="Block" gid="7" x="168" y="48" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="219" name="BlockGreen" type="Block" gid="7" x="144" y="48" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="220" name="BlockGreen" type="Block" gid="7" x="288" y="48" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="221" name="BlockGreen" type="Block" gid="7" x="264" y="48" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="222" name="BlockGreen" type="Block" gid="7" x="240" y="48" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="BlocksPink">
-  <object id="224" type="Block" gid="10" x="48" y="64" width="24" height="16"/>
-  <object id="225" type="Block" gid="10" x="72" y="64" width="24" height="16"/>
-  <object id="226" type="Block" gid="10" x="120" y="64" width="24" height="16"/>
-  <object id="227" type="Block" gid="10" x="96" y="64" width="24" height="16"/>
-  <object id="228" type="Block" gid="10" x="168" y="64" width="24" height="16"/>
-  <object id="229" type="Block" gid="10" x="192" y="64" width="24" height="16"/>
-  <object id="230" type="Block" gid="10" x="144" y="64" width="24" height="16"/>
-  <object id="231" type="Block" gid="10" x="216" y="64" width="24" height="16"/>
-  <object id="232" type="Block" gid="10" x="288" y="64" width="24" height="16"/>
-  <object id="233" type="Block" gid="10" x="264" y="64" width="24" height="16"/>
-  <object id="234" type="Block" gid="10" x="240" y="64" width="24" height="16"/>
+  <object id="224" name="BlockPink" type="Block" gid="10" x="48" y="64" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="225" name="BlockPink" type="Block" gid="10" x="72" y="64" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="226" name="BlockPink" type="Block" gid="10" x="120" y="64" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="227" name="BlockPink" type="Block" gid="10" x="96" y="64" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="228" name="BlockPink" type="Block" gid="10" x="168" y="64" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="229" name="BlockPink" type="Block" gid="10" x="192" y="64" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="230" name="BlockPink" type="Block" gid="10" x="144" y="64" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="231" name="BlockPink" type="Block" gid="10" x="216" y="64" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="232" name="BlockPink" type="Block" gid="10" x="288" y="64" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="233" name="BlockPink" type="Block" gid="10" x="264" y="64" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="234" name="BlockPink" type="Block" gid="10" x="240" y="64" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="BlocksRed">
-  <object id="235" type="Block" gid="5" x="48" y="96" width="24" height="16">
+  <properties>
+   <property name="unity:tag" value="Block"/>
+  </properties>
+  <object id="235" name="BlockRed" type="Block" gid="5" x="48" y="96" width="24" height="16">
    <properties>
-    <property name="hits" type="int" value="2"/>
+    <property name="hits" type="int" value="1"/>
    </properties>
   </object>
-  <object id="236" type="Block" gid="5" x="72" y="96" width="24" height="16">
+  <object id="236" name="BlockRed" type="Block" gid="5" x="72" y="96" width="24" height="16">
    <properties>
-    <property name="hits" type="int" value="2"/>
+    <property name="hits" type="int" value="1"/>
    </properties>
   </object>
-  <object id="237" type="Block" gid="5" x="96" y="96" width="24" height="16">
+  <object id="237" name="BlockRed" type="Block" gid="5" x="96" y="96" width="24" height="16">
    <properties>
-    <property name="hits" type="int" value="2"/>
+    <property name="hits" type="int" value="1"/>
    </properties>
   </object>
-  <object id="238" type="Block" gid="5" x="120" y="96" width="24" height="16">
+  <object id="238" name="BlockRed" type="Block" gid="5" x="120" y="96" width="24" height="16">
    <properties>
-    <property name="hits" type="int" value="2"/>
+    <property name="hits" type="int" value="1"/>
    </properties>
   </object>
-  <object id="239" type="Block" gid="5" x="144" y="96" width="24" height="16">
+  <object id="239" name="BlockRed" type="Block" gid="5" x="144" y="96" width="24" height="16">
    <properties>
-    <property name="hits" type="int" value="2"/>
+    <property name="hits" type="int" value="1"/>
    </properties>
   </object>
-  <object id="240" type="Block" gid="5" x="168" y="96" width="24" height="16">
+  <object id="240" name="BlockRed" type="Block" gid="5" x="168" y="96" width="24" height="16">
    <properties>
-    <property name="hits" type="int" value="2"/>
+    <property name="hits" type="int" value="1"/>
    </properties>
   </object>
-  <object id="241" type="Block" gid="5" x="264" y="96" width="24" height="16">
+  <object id="241" name="BlockRed" type="Block" gid="5" x="264" y="96" width="24" height="16">
    <properties>
-    <property name="hits" type="int" value="2"/>
+    <property name="hits" type="int" value="1"/>
    </properties>
   </object>
-  <object id="242" type="Block" gid="5" x="240" y="96" width="24" height="16">
+  <object id="242" name="BlockRed" type="Block" gid="5" x="240" y="96" width="24" height="16">
    <properties>
-    <property name="hits" type="int" value="2"/>
+    <property name="hits" type="int" value="1"/>
    </properties>
   </object>
-  <object id="243" type="Block" gid="5" x="288" y="96" width="24" height="16">
+  <object id="243" name="BlockRed" type="Block" gid="5" x="288" y="96" width="24" height="16">
    <properties>
-    <property name="hits" type="int" value="2"/>
+    <property name="hits" type="int" value="1"/>
    </properties>
   </object>
-  <object id="244" type="Block" gid="5" x="192" y="96" width="24" height="16">
+  <object id="244" name="BlockRed" type="Block" gid="5" x="192" y="96" width="24" height="16">
    <properties>
-    <property name="hits" type="int" value="2"/>
+    <property name="hits" type="int" value="1"/>
    </properties>
   </object>
-  <object id="245" type="Block" gid="5" x="216" y="96" width="24" height="16">
+  <object id="245" name="BlockRed" type="Block" gid="5" x="216" y="96" width="24" height="16">
    <properties>
-    <property name="hits" type="int" value="2"/>
+    <property name="hits" type="int" value="1"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="BlocksYellow">
-  <object id="247" type="Block" gid="13" x="48" y="80" width="24" height="16"/>
-  <object id="248" type="Block" gid="13" x="72" y="80" width="24" height="16"/>
-  <object id="249" type="Block" gid="13" x="120" y="80" width="24" height="16"/>
-  <object id="250" type="Block" gid="13" x="96" y="80" width="24" height="16"/>
-  <object id="251" type="Block" gid="13" x="168" y="80" width="24" height="16"/>
-  <object id="252" type="Block" gid="13" x="144" y="80" width="24" height="16"/>
-  <object id="253" type="Block" gid="13" x="288" y="80" width="24" height="16"/>
-  <object id="255" type="Block" gid="13" x="216" y="80" width="24" height="16"/>
-  <object id="256" type="Block" gid="13" x="240" y="80" width="24" height="16"/>
-  <object id="257" type="Block" gid="13" x="264" y="80" width="24" height="16"/>
-  <object id="258" type="Block" gid="13" x="192" y="80" width="24" height="16"/>
+  <properties>
+   <property name="unity:tag" value="Block"/>
+  </properties>
+  <object id="247" name="BlockYellow" type="Block" gid="13" x="48" y="80" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="248" name="BlockYellow" type="Block" gid="13" x="72" y="80" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="249" name="BlockYellow" type="Block" gid="13" x="120" y="80" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="250" name="BlockYellow" type="Block" gid="13" x="96" y="80" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="251" name="BlockYellow" type="Block" gid="13" x="168" y="80" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="252" name="BlockYellow" type="Block" gid="13" x="144" y="80" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="253" name="BlockYellow" type="Block" gid="13" x="288" y="80" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="255" name="BlockYellow" type="Block" gid="13" x="216" y="80" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="256" name="BlockYellow" type="Block" gid="13" x="240" y="80" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="257" name="BlockYellow" type="Block" gid="13" x="264" y="80" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="258" name="BlockYellow" type="Block" gid="13" x="192" y="80" width="24" height="16">
+   <properties>
+    <property name="hits" type="int" value="1"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Paddle" visible="0">
   <properties>
