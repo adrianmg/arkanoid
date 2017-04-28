@@ -18,8 +18,6 @@ public class Block : MonoBehaviour
         {
             hits--;
 
-            Debug.Log("Hits: " + hits);
-
             if (hits <= 0)
             {
                 DestroyBlock();
@@ -38,8 +36,7 @@ public class Block : MonoBehaviour
     {
         audioDestroy = gameObject.AddComponent<AudioSource>();
 
-        audioDestroy.clip = Resources.Load<AudioClip>("block-" + Random.Range(1, 3).ToString());
-
-        Debug.Log(audioDestroy.clip);
+        //audioDestroy.clip = Resources.Load<AudioClip>("block-" + Random.Range(1, 3).ToString());
+        audioDestroy.clip = Resources.Load<AudioClip>("block-2");
     }
 }
