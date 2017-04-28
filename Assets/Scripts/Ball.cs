@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Ball : MonoBehaviour {
 
-    private float speed = 16.0f;
+    private float speed = 14.0f;
     private Rigidbody2D ballRigidBody;
     private bool isActive = false;
     private float previousPosition;
@@ -37,6 +37,8 @@ public class Ball : MonoBehaviour {
                 paddlePreviousPosition = paddle.transform.position.x;
             }
         }
+
+        Debug.Log("Ball velocity " + ballRigidBody.velocity.ToString("F2"));
     }
 
     private void FixedUpdate()
@@ -52,6 +54,10 @@ public class Ball : MonoBehaviour {
         if (e.gameObject.tag == "Dead")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        else if (e.gameObject.tag == "Player")
+        {
+            BounceAgainstPaddle(e);
         }
     }
 
@@ -74,7 +80,7 @@ public class Ball : MonoBehaviour {
             }
         }
 
-        ballRigidBody.velocity = new Vector2(speedX, speed);
+        ballRigidBody.velocity = new Vector2(speedX / 2, speed);
 
         isActive = true;
     }
@@ -82,5 +88,16 @@ public class Ball : MonoBehaviour {
     private void KeepConstantVelocity()
     {
         ballRigidBody.velocity = ballRigidBody.velocity.normalized * speed;
+    }
+
+    private void BounceAgainstPaddle(Collision2D paddle)
+    {
+        if (isActive)
+        {
+            float relative = Mathf.Clamp(this.transform.position.x - paddle.gameObject.transform.position.x, -1, 1);
+            Vector2 move = new Vector2(relative, 1);
+
+            ballRigidBody.velocity = move * speed;
+        }
     }
 }
