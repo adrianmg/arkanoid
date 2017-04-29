@@ -1,5 +1,5 @@
 # Arkanoid in Unity 5
-![](https://github.com/adrianmg/arkanoid/blob/master/Assets/Sprites/_preview.png?raw=true)
+![](https://media.giphy.com/media/cgeXkdXZ3huy4/giphy.gif)
 
 Trying to build my first game inspired by the classic NES Arkanoid in Unity 5.
 
