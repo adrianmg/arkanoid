@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Ball : MonoBehaviour {
-
-    private float speed = 14.0f;
+public class Ball : MonoBehaviour
+{
+    private float speed = 240.0f;
     private Rigidbody2D ballRigidBody;
     private bool isActive = false;
     private float previousPosition;
@@ -37,8 +37,6 @@ public class Ball : MonoBehaviour {
                 paddlePreviousPosition = paddle.transform.position.x;
             }
         }
-
-        Debug.Log("Ball velocity " + ballRigidBody.velocity.ToString("F2"));
     }
 
     private void FixedUpdate()
@@ -53,7 +51,7 @@ public class Ball : MonoBehaviour {
     {
         if (e.gameObject.tag == "Dead")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            GameManager.LoseLife();
         }
         else if (e.gameObject.tag == "Player")
         {
