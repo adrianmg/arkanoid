@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Paddle : MonoBehaviour
 {
-    private float speed = 16.0f;
+    private float speed = 240.0f;
     private Rigidbody2D ballRigidBody;
     private float velocity;
 
@@ -29,13 +29,13 @@ public class Paddle : MonoBehaviour
         mousePosition = GetMousePosition();
 
         // Boundaries of the screen
-        float screenHorizontalUnits = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x;
-        float spriteHorizontalUnits = GetComponent<SpriteRenderer>().sprite.bounds.size.x;
-        boundaryLeft = spriteHorizontalUnits / 2;
-        boundaryRight = screenHorizontalUnits - (spriteHorizontalUnits / 2);
+        float paddleWidth = GetComponent<SpriteRenderer>().bounds.size.x;
+        float screenWidth = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x;
+        boundaryRight = screenWidth - paddleWidth / 2;
+        boundaryLeft = (screenWidth - paddleWidth / 2) * -1;
     }
 
-    void Update()
+    private void Update()
     {
         UpdateMovementInput();
     }
@@ -47,7 +47,7 @@ public class Paddle : MonoBehaviour
 
 
 
-    void UpdateMovementInput()
+    private void UpdateMovementInput()
     {
         if (IsMouseMoving()) // Mouse
         {
@@ -61,7 +61,7 @@ public class Paddle : MonoBehaviour
         }
     }
 
-    void MovePaddle()
+    private void MovePaddle()
     {
         Vector2 newPosition;
         newPosition.y = ballRigidBody.position.y;
@@ -79,7 +79,7 @@ public class Paddle : MonoBehaviour
         ballRigidBody.MovePosition(newPosition);
     }
 
-    bool IsMouseMoving()
+    private bool IsMouseMoving()
     {
         float mousePreviousPosition = mousePosition;
         mousePosition = GetMousePosition();
@@ -94,7 +94,7 @@ public class Paddle : MonoBehaviour
         }
     }
 
-    float GetMousePosition()
+    private float GetMousePosition()
     {
         return Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
     }
