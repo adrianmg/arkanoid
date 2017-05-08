@@ -3,40 +3,33 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
-    public int hits;
-
-    private AudioSource audioDestroy;
-
-    private void Awake()
-    {
-        AddAudioDestroy();
-    }
+    public int Hits;
+    public int Score;
 
     private void OnCollisionEnter2D(Collision2D e)
     {
         if (e.gameObject.tag == "Ball")
         {
-            hits--;
-
-            if (hits <= 0)
-            {
-                DestroyBlock();
-            }
+            UpdateHits();
         }
     }
 
-    private void DestroyBlock()
+    private void Destroy()
     {
-        AudioSource.PlayClipAtPoint(audioDestroy.clip, this.transform.position, 1.0f);
+        GameManager.UpdateScore(Score);
+
+        ObjectFactory.CreateBlockExplosion(this.transform);
 
         Destroy(gameObject.transform.parent.gameObject);
     }
 
-    private void AddAudioDestroy()
+    private void UpdateHits()
     {
-        audioDestroy = gameObject.AddComponent<AudioSource>();
+        Hits--;
 
-        //audioDestroy.clip = Resources.Load<AudioClip>("block-" + Random.Range(1, 3).ToString());
-        audioDestroy.clip = Resources.Load<AudioClip>("block-2");
+        if (Hits <=0)
+        {
+            Destroy();
+        }
     }
 }
